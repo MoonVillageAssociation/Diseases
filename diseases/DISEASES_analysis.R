@@ -335,3 +335,135 @@ print(sprintf(
   hematologic_among_all_cancers_pct, hematologic_cancers_count, cancer_total_count
 ))
 
+
+########################   CNS GROUPING (MENTAL + NEURO ONLY)   ########################
+# NOTE:
+# Here, "CNS" stands for Central Nervous System.
+# We group "Neurological Disease" + "Mental Health Disorder" under "CNS" because both are directly linked
+# to brain/CNS function. We DO NOT include "Ophthalmologic Disease" in CNS, because many eye conditions
+# (e.g., corneal diseases/dystrophies) are not CNS disorders (they affect non-neural ocular tissue).
+
+# Create CNS-labeled version of df_expanded (DO NOT overwrite df_expanded)
+df_expanded_cns <- df_expanded %>%
+  mutate(
+    class = if_else(
+      class %in% c("Neurological Disease", "Mental Health Disorder"),
+      "CNS Disease",
+      class
+    )
+  )
+
+###########   GENERATE CHEMICAL CONTRIBUTIONS STACKED BAR CHART (CNS VERSION)   ###########
+
+# Get top 10 categories
+top_categories_cns <- df_expanded_cns %>%
+  count(class, sort = TRUE) %>%
+  slice_max(n, n = 10) %>%
+  pull(class)
+
+# Filter to top 10 categories
+filtered_df_cns <- df_expanded_cns %>%
+  filter(class %in% top_categories_cns)
+
+# Count (class, ChemicalName)
+stacked_data_cns <- filtered_df_cns %>%
+  count(class, ChemicalName)
+
+# Reorder categories by total count
+class_order_cns <- stacked_data_cns %>%
+  group_by(class) %>%
+  summarise(total = sum(n), .groups = "drop") %>%
+  arrange(desc(total)) %>%
+  pull(class)
+
+# Convert class column to factor with correct order
+stacked_data_cns$class <- factor(stacked_data_cns$class, levels = class_order_cns)
+
+# Plot stacked bar chart
+chemical_contributions_stacked_bar_cns <- ggplot(stacked_data_cns, aes(
+  x = n,
+  y = class,
+  fill = ChemicalName
+)) +
+  geom_bar(stat = "identity") +
+  labs(
+    title = "Chemical Contributions in Top 10 Disease Categories",
+    x = "Number of Occurrences",
+    y = "class"
+  ) +
+  scale_x_continuous(expand = c(0, 0)) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    axis.text.x = element_text(size = 12),
+    axis.text.y = element_text(size = 12)
+  ) +
+  guides(fill = guide_legend(title = "Chemical Name"))
+
+print(chemical_contributions_stacked_bar_cns)
+
+# Save plot
+ggsave(
+  "DISEASES_analysis/chemical_contributions_stacked_bar_CNS.png",
+  plot = chemical_contributions_stacked_bar_cns,
+  width = 10, height = 6, dpi = 300
+)
+
+
+
+#######   GENERATE RELATIVE CHEMICAL CONTRIBUTIONS STACKED BAR CHART (CNS VERSION)  #######
+
+# Top 10 categories by absolute count
+top_categories_rel_cns <- df_expanded_cns %>%
+  count(class, name = "total") %>%
+  slice_max(total, n = 10) %>%
+  pull(class)
+
+# Filter to those categories
+filtered_rel_cns <- df_expanded_cns %>%
+  filter(class %in% top_categories_rel_cns)
+
+# Count (class, ChemicalName) pairs
+contributions_rel_cns <- filtered_rel_cns %>%
+  count(class, ChemicalName, name = "n")
+
+# Normalize within each class
+normalized_rel_cns <- contributions_rel_cns %>%
+  group_by(class) %>%
+  mutate(share = n / sum(n)) %>%
+  ungroup()
+
+# Order categories by total occurrences (same order as absolute totals)
+class_order_rel_cns <- contributions_rel_cns %>%
+  group_by(class) %>%
+  summarise(total = sum(n), .groups = "drop") %>%
+  arrange(desc(total)) %>%
+  pull(class)
+
+normalized_rel_cns$class <- factor(normalized_rel_cns$class, levels = class_order_rel_cns)
+
+# Plot normalized stacked bar (vertical)
+p_rel_cns <- ggplot(normalized_rel_cns, aes(x = class, y = share, fill = ChemicalName)) +
+  geom_col(width = 0.7) +
+  labs(
+    title = "Relative Chemical Contributions in Top 10 Disease Categories (CNS = Neurological + Mental)",
+    x = "class",
+    y = "Relative Share"
+  ) +
+  scale_y_continuous(labels = percent_format(accuracy = 1)) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(hjust = 0.5),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.title = element_text(size = 12)
+  ) +
+  guides(fill = guide_legend(title = "Chemical Name"))
+
+print(p_rel_cns)
+
+# Save
+ggsave(
+  "DISEASES_analysis/normalized_chemical_contributions_CNS.png",
+  plot = p_rel_cns,
+  width = 12, height = 6, dpi = 300
+)

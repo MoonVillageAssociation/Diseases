@@ -1,0 +1,29 @@
+import os
+import pandas as pd
+
+# Where your files are
+INPUT_DIR = "StringDB_results"
+OUTPUT_DIR = "StringDB_results"   # same folder, new filenames
+
+files = [
+    ("ALL_DISEASES.csv", "ALL_DISEASES_selected_cols.csv"),
+    ("ALL_HPO.csv",      "ALL_HPO_selected_cols.csv"),
+]
+
+keep_cols = ["ChemicalName", "description", "preferredNames"]
+
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+for in_name, out_name in files:
+    in_path = os.path.join(INPUT_DIR, in_name)
+    out_path = os.path.join(OUTPUT_DIR, out_name)
+
+    df = pd.read_csv(in_path)
+
+    missing = [c for c in keep_cols if c not in df.columns]
+    if missing:
+        raise ValueError(f"{in_name}: missing columns: {missing}")
+
+    df_out = df[keep_cols].copy()
+    df_out.to_csv(out_path, index=False)
+    print(f"Saved: {out_path} (rows: {len(df_out)})")
