@@ -1,0 +1,1188 @@
+term,description
+EFO:0000246,Age
+EFO:0000313,Carcinoma
+EFO:0000319,Cardiovascular disease
+EFO:0000405,Digestive system disease
+EFO:0000408,Disease
+EFO:0000508,Genetic disorder
+EFO:0000616,Neoplasm
+EFO:0000618,Nervous system disease
+EFO:0000677,Mental or behavioural disorder
+EFO:0000719,Temporal measurement
+EFO:0000720,Test result
+EFO:0001379,Endocrine system disease
+EFO:0003765,Sign or symptom
+EFO:0003777,Heart disease
+EFO:0003843,Pain
+EFO:0003892,Pulmonary function measurement
+EFO:0003907,Deep vein thrombosis
+EFO:0003923,Bone density
+EFO:0003925,Cognition
+EFO:0003966,Eye disease
+EFO:0004264,Vascular disease
+EFO:0004269,Cardiac arrhythmia
+EFO:0004272,Anemia (phenotype)
+EFO:0004298,Cardiovascular measurement
+EFO:0004300,Longevity
+EFO:0004302,Anthropometric measurement
+EFO:0004303,Vital signs
+EFO:0004305,Erythrocyte count
+EFO:0004306,Erythrocyte indices
+EFO:0004308,Leukocyte count
+EFO:0004309,Platelet count
+EFO:0004310,Partial thromboplastin time
+EFO:0004311,Heart function measurement
+EFO:0004312,Vital capacity
+EFO:0004314,Forced expiratory volume
+EFO:0004318,Smoking behavior
+EFO:0004324,Body weights and measures
+EFO:0004325,Blood pressure
+EFO:0004326,Heart rate
+EFO:0004327,Electrocardiography
+EFO:0004337,Intelligence
+EFO:0004338,Body weight
+EFO:0004339,Body height
+EFO:0004340,Body mass index
+EFO:0004342,Waist circumference
+EFO:0004343,Waist-hip ratio
+EFO:0004344,Birth weight
+EFO:0004348,Hematocrit
+EFO:0004352,Mortality
+EFO:0004461,Iron biomarker measurement
+EFO:0004462,PR interval
+EFO:0004464,Brain measurement
+EFO:0004468,Glucose measurement
+EFO:0004503,Hematological measurement
+EFO:0004509,Hemoglobin measurement
+EFO:0004512,Bone measurement
+EFO:0004516,Bone fracture related measurement
+EFO:0004526,Mean corpuscular volume
+EFO:0004527,Mean corpuscular hemoglobin
+EFO:0004528,Mean corpuscular hemoglobin concentration
+EFO:0004529,Lipid measurement
+EFO:0004530,Triglyceride measurement
+EFO:0004531,Urate measurement
+EFO:0004532,Serum gamma-glutamyl transferase measurement
+EFO:0004535,Serum albumin measurement
+EFO:0004555,Glycoprotein measurement
+EFO:0004556,Antibody measurement
+EFO:0004557,Population measurement
+EFO:0004574,Total cholesterol measurement
+EFO:0004582,Liver enzyme measurement
+EFO:0004584,Mean platelet volume
+EFO:0004586,Complete blood cell count
+EFO:0004587,Lymphocyte count
+EFO:0004611,Low density lipoprotein cholesterol measurement
+EFO:0004612,High density lipoprotein cholesterol measurement
+EFO:0004614,Apolipoprotein A 1 measurement
+EFO:0004615,Apolipoprotein B measurement
+EFO:0004622,Sphingolipid measurement
+EFO:0004695,Intraocular pressure measurement
+EFO:0004696,Sex hormone-binding globulin measurement
+EFO:0004703,Age at menarche
+EFO:0004713,FEV/FEC ratio
+EFO:0004725,Metabolite measurement
+EFO:0004730,Hormone measurement
+EFO:0004731,Eye measurement
+EFO:0004732,Lipoprotein measurement
+EFO:0004735,Serum alanine aminotransferase measurement
+EFO:0004736,Aspartate aminotransferase measurement
+EFO:0004742,Renal system measurement
+EFO:0004747,Protein measurement
+EFO:0004784,Self reported educational attainment
+EFO:0004833,Neutrophil count
+EFO:0004842,Eosinophil count
+EFO:0004847,Age at onset
+EFO:0004870,Sleep measurement
+EFO:0004872,Inflammatory biomarker measurement
+EFO:0004873,Cytokine measurement
+EFO:0005036,Platelet measurement
+EFO:0005047,Erythrocyte measurement
+EFO:0005052,Nervous system measurement
+EFO:0005055,QRS duration
+EFO:0005090,Basophil count
+EFO:0005091,Monocyte count
+EFO:0005093,Hip circumference
+EFO:0005105,Lipid or lipoprotein measurement
+EFO:0005127,Cancer biomarker measurement
+EFO:0005134,Amino acid measurement
+EFO:0005192,Red blood cell distribution width
+EFO:0005208,Glomerular filtration rate
+EFO:0005271,Sleep duration
+EFO:0005278,Cardiovascular disease biomarker measurement
+EFO:0005413,Joint damage measurement
+EFO:0005665,White matter hyperintensity measurement
+EFO:0005670,Smoking initiation
+EFO:0005763,Pulse pressure measurement
+EFO:0005774,Brain disease
+EFO:0005815,Tauopathy
+EFO:0005852,Heschls gyrus morphology measurement
+EFO:0006332,Serum iron measurement
+EFO:0006333,Transferrin saturation measurement
+EFO:0006335,Systolic blood pressure
+EFO:0006336,Diastolic blood pressure
+EFO:0006514,Alzheimers disease biomarker measurement
+EFO:0006781,Coffee consumption measurement
+EFO:0006799,Lewy body dementia measurement
+EFO:0006834,Septic shock
+EFO:0006841,Respiratory disease biomarker
+EFO:0006842,Diabetes mellitus biomarker
+EFO:0006843,Infectious disease biomarker
+EFO:0006845,Liver disease biomarker
+EFO:0006846,Autoimmune disease biomarker
+EFO:0006848,Mental or behavioural disorder biomarker
+EFO:0006870,Alpha wave measurement
+EFO:0006900,Endothelial growth factor measurement
+EFO:0006930,Brain volume measurement
+EFO:0007010,Drug use measurement
+EFO:0007626,Emphysema imaging measurement
+EFO:0007788,BMI-adjusted waist-hip ratio
+EFO:0007789,BMI-adjusted waist circumference
+EFO:0007796,Parental longevity
+EFO:0007821,Hair morphology measurement
+EFO:0007822,Hair colour measurement
+EFO:0007861,Body ratio measurement
+EFO:0007874,Gut microbiome measurement
+EFO:0007882,Microbiome measurement
+EFO:0007908,Traffic air pollution measurement
+EFO:0007911,Personality trait measurement
+EFO:0007937,Blood protein measurement
+EFO:0007978,Red blood cell density measurement
+EFO:0007984,Platelet component distribution width
+EFO:0007985,Platelet crit
+EFO:0007986,Reticulocyte count
+EFO:0007987,Granulocyte count
+EFO:0007988,Myeloid white cell count
+EFO:0007989,Monocyte percentage of leukocytes
+EFO:0007990,Neutrophil percentage of leukocytes
+EFO:0007993,Lymphocyte percentage of leukocytes
+EFO:0008002,Physical activity measurement
+EFO:0008007,Age at assessment
+EFO:0008039,BMI-adjusted hip circumference
+EFO:0008207,Leucine carboxyl methyltransferase 1 measurement
+EFO:0008336,Disease progression measurement
+EFO:0008341,Snoring measurement
+EFO:0008354,Cognitive function measurement
+EFO:0008360,Environmental exposure measurement
+EFO:0008422,Susceptibility to infectious disease measurement
+EFO:0008579,Risk-taking behaviour
+EFO:0009268,Family history of Alzheimer’s disease
+EFO:0009270,Heel bone mineral density
+EFO:0009386,Central nervous system disease
+EFO:0009718,Peak expiratory flow
+EFO:0009795,Serum urea measurement
+EFO:0010059,Cerebral microbleeds
+EFO:0010104,Health literacy measurement
+EFO:0010285,Integumentary system disease
+EFO:0010576,Liver fibrosis measurement
+EFO:0010700,Reticulocyte measurement
+EFO:0010701,Mean reticulocyte volume
+EFO:0010934,Aspartate aminotransferase to alanine aminotransferase ratio
+EFO:0011008,Sex hormone measurement
+EFO:0011015,Educational attainment
+EFO:1001870,Late-onset Alzheimers disease
+HP:0000002,Abnormality of body height
+HP:0000008,Abnormal morphology of female internal genitalia
+HP:0000009,Functional abnormality of the bladder
+HP:0000014,Abnormality of the bladder
+HP:0000023,Inguinal hernia
+HP:0000032,Abnormality of male external genitalia
+HP:0000035,Abnormal testis morphology
+HP:0000047,Hypospadias
+HP:0000065,Labial hypertrophy
+HP:0000069,Abnormality of the ureter
+HP:0000077,Abnormality of the kidney
+HP:0000078,Abnormality of the genital system
+HP:0000079,Abnormality of the urinary system
+HP:0000080,Abnormality of reproductive system physiology
+HP:0000083,Renal insufficiency
+HP:0000085,Horseshoe kidney
+HP:0000093,Proteinuria
+HP:0000095,Abnormal renal glomerulus morphology
+HP:0000098,Tall stature
+HP:0000104,Renal agenesis
+HP:0000118,Phenotypic abnormality
+HP:0000119,Abnormality of the genitourinary system
+HP:0000126,Hydronephrosis
+HP:0000137,Abnormality of the ovary
+HP:0000140,Abnormality of the menstrual cycle
+HP:0000152,Abnormality of head or neck
+HP:0000153,Abnormality of the mouth
+HP:0000155,Oral ulcer
+HP:0000159,Abnormal lip morphology
+HP:0000160,Narrow mouth
+HP:0000163,Abnormal oral cavity morphology
+HP:0000164,Abnormality of the dentition
+HP:0000166,Severe periodontitis
+HP:0000168,Abnormality of the gingiva
+HP:0000174,Abnormal palate morphology
+HP:0000175,Cleft palate
+HP:0000177,Abnormal upper lip morphology
+HP:0000178,Abnormal lower lip morphology
+HP:0000185,Cleft soft palate
+HP:0000189,Narrow palate
+HP:0000202,Oral cleft
+HP:0000212,Gingival overgrowth
+HP:0000218,High palate
+HP:0000219,Thin upper lip vermilion
+HP:0000225,Gingival bleeding
+HP:0000232,Everted lower lip vermilion
+HP:0000233,Thin vermilion border
+HP:0000234,Abnormality of the head
+HP:0000235,Abnormality of the fontanelles or cranial sutures
+HP:0000239,Large fontanelles
+HP:0000240,Abnormality of skull size
+HP:0000246,Sinusitis
+HP:0000248,Brachycephaly
+HP:0000252,Microcephaly
+HP:0000262,Turricephaly
+HP:0000271,Abnormality of the face
+HP:0000272,Malar flattening
+HP:0000277,Abnormal mandible morphology
+HP:0000278,Retrognathia
+HP:0000286,Epicanthus
+HP:0000290,Abnormality of the forehead
+HP:0000294,Low anterior hairline
+HP:0000301,Abnormality of facial musculature
+HP:0000306,Abnormality of the chin
+HP:0000307,Pointed chin
+HP:0000309,Abnormal midface morphology
+HP:0000315,Abnormality of the orbital region
+HP:0000316,Hypertelorism
+HP:0000325,Triangular face
+HP:0000326,Abnormality of the maxilla
+HP:0000327,Hypoplasia of the maxilla
+HP:0000337,Broad forehead
+HP:0000343,Long philtrum
+HP:0000347,Micrognathia
+HP:0000350,Small forehead
+HP:0000356,Abnormality of the outer ear
+HP:0000357,Abnormal location of ears
+HP:0000363,Abnormal earlobe morphology
+HP:0000366,Abnormality of the nose
+HP:0000369,Low-set ears
+HP:0000377,Abnormal pinna morphology
+HP:0000421,Epistaxis
+HP:0000422,Abnormal nasal bridge morphology
+HP:0000431,Wide nasal bridge
+HP:0000446,Narrow nasal bridge
+HP:0000453,Choanal atresia
+HP:0000457,Depressed nasal ridge
+HP:0000465,Webbed neck
+HP:0000470,Short neck
+HP:0000478,Abnormality of the eye
+HP:0000481,Abnormal cornea morphology
+HP:0000482,Microcornea
+HP:0000486,Strabismus
+HP:0000488,Retinopathy
+HP:0000492,Abnormal eyelid morphology
+HP:0000494,Downslanted palpebral fissures
+HP:0000496,Abnormality of eye movement
+HP:0000499,Abnormal eyelash morphology
+HP:0000501,Glaucoma
+HP:0000502,Abnormal conjunctiva morphology
+HP:0000504,Abnormality of vision
+HP:0000506,Telecanthus
+HP:0000508,Ptosis
+HP:0000509,Conjunctivitis
+HP:0000517,Abnormal lens morphology
+HP:0000518,Cataract
+HP:0000519,Developmental cataract
+HP:0000520,Proptosis
+HP:0000525,Abnormality iris morphology
+HP:0000539,Abnormality of refraction
+HP:0000549,Abnormal conjugate eye movement
+HP:0000553,Abnormal uvea morphology
+HP:0000558,Rieger anomaly
+HP:0000568,Microphthalmia
+HP:0000589,Coloboma
+HP:0000591,Abnormal sclera morphology
+HP:0000592,Blue sclerae
+HP:0000598,Abnormality of the ear
+HP:0000599,Abnormality of the frontal hairline
+HP:0000606,Abnormality of the periorbital region
+HP:0000609,Optic nerve hypoplasia
+HP:0000612,Iris coloboma
+HP:0000643,Blepharospasm
+HP:0000651,Diplopia
+HP:0000670,Carious teeth
+HP:0000678,Dental crowding
+HP:0000684,Delayed eruption of teeth
+HP:0000685,Hypoplasia of teeth
+HP:0000691,Microdontia
+HP:0000692,Tooth malposition
+HP:0000695,Natal tooth
+HP:0000696,Delayed eruption of permanent teeth
+HP:0000704,Periodontitis
+HP:0000707,Abnormality of the nervous system
+HP:0000708,Behavioral abnormality
+HP:0000709,Psychosis
+HP:0000711,Restlessness
+HP:0000712,Emotional lability
+HP:0000713,Agitation
+HP:0000716,Depression
+HP:0000726,Dementia
+HP:0000727,Frontal lobe dementia
+HP:0000734,Disinhibition
+HP:0000735,Impaired social interactions
+HP:0000737,Irritability
+HP:0000738,Hallucinations
+HP:0000739,Anxiety
+HP:0000741,Apathy
+HP:0000745,Diminished motivation
+HP:0000746,Delusions
+HP:0000751,Personality changes
+HP:0000759,Abnormal peripheral nervous system morphology
+HP:0000763,Sensory neuropathy
+HP:0000765,Abnormal thorax morphology
+HP:0000766,Abnormal sternum morphology
+HP:0000767,Pectus excavatum
+HP:0000782,Abnormal scapula morphology
+HP:0000790,Hematuria
+HP:0000793,Membranoproliferative glomerulonephritis
+HP:0000795,Abnormality of the urethra
+HP:0000799,Renal steatosis
+HP:0000800,Cystic renal dysplasia
+HP:0000802,Impotence
+HP:0000811,Abnormal external genitalia
+HP:0000812,Abnormal internal genitalia
+HP:0000818,Abnormality of the endocrine system
+HP:0000820,Abnormality of the thyroid gland
+HP:0000821,Hypothyroidism
+HP:0000822,Hypertension
+HP:0000823,Delayed puberty
+HP:0000826,Precocious puberty
+HP:0000912,Sprengel anomaly
+HP:0000924,Abnormality of the skeletal system
+HP:0000925,Abnormality of the vertebral column
+HP:0000927,Abnormality of skeletal maturation
+HP:0000929,Abnormal skull morphology
+HP:0000932,Abnormal posterior cranial fossa morphology
+HP:0000938,Osteopenia
+HP:0000939,Osteoporosis
+HP:0000940,Abnormal diaphysis morphology
+HP:0000944,Abnormal metaphysis morphology
+HP:0000951,Abnormality of the skin
+HP:0000952,Jaundice
+HP:0000953,Hyperpigmentation of the skin
+HP:0000962,Hyperkeratosis
+HP:0000963,Thin skin
+HP:0000964,Eczema
+HP:0000965,Cutis marmorata
+HP:0000967,Petechiae
+HP:0000969,Edema
+HP:0000973,Cutis laxa
+HP:0000974,Hyperextensible skin
+HP:0000976,Eczematoid dermatitis
+HP:0000977,Soft skin
+HP:0000978,Bruising susceptibility
+HP:0000979,Purpura
+HP:0000980,Pallor
+HP:0000988,Skin rash
+HP:0000989,Pruritus
+HP:0000991,Xanthomatosis
+HP:0001000,Abnormality of skin pigmentation
+HP:0001001,Abnormality of subcutaneous fat tissue
+HP:0001005,Dermatological manifestations of systemic disorders
+HP:0001030,Fragile skin
+HP:0001034,Hypermelanotic macule
+HP:0001045,Vitiligo
+HP:0001057,Aplasia cutis congenita
+HP:0001072,Thickened skin
+HP:0001075,Atrophic scars
+HP:0001080,Biliary tract abnormality
+HP:0001084,Corneal arcus
+HP:0001087,Developmental glaucoma
+HP:0001098,Abnormal fundus morphology
+HP:0001114,Xanthelasma
+HP:0001120,Abnormality of corneal size
+HP:0001149,Lattice corneal dystrophy
+HP:0001152,Saccadic smooth pursuit
+HP:0001155,Abnormality of the hand
+HP:0001167,Abnormality of finger
+HP:0001171,Split hand
+HP:0001172,Abnormal thumb morphology
+HP:0001197,Abnormality of prenatal development or birth
+HP:0001199,Triphalangeal thumb
+HP:0001211,Abnormal fingertip morphology
+HP:0001227,Abnormality of the thenar eminence
+HP:0001231,Abnormal fingernail morphology
+HP:0001238,Slender finger
+HP:0001249,Intellectual disability
+HP:0001250,Seizure
+HP:0001251,Ataxia
+HP:0001252,Hypotonia
+HP:0001254,Lethargy
+HP:0001257,Spasticity
+HP:0001259,Coma
+HP:0001260,Dysarthria
+HP:0001263,Global developmental delay
+HP:0001268,Mental deterioration
+HP:0001273,Abnormal corpus callosum morphology
+HP:0001276,Hypertonia
+HP:0001278,Orthostatic hypotension
+HP:0001287,Meningitis
+HP:0001288,Gait disturbance
+HP:0001289,Confusion
+HP:0001297,Stroke
+HP:0001298,Encephalopathy
+HP:0001300,Parkinsonism
+HP:0001305,Dandy-Walker malformation
+HP:0001317,Abnormal cerebellum morphology
+HP:0001324,Muscle weakness
+HP:0001332,Dystonia
+HP:0001336,Myoclonus
+HP:0001337,Tremor
+HP:0001342,Cerebral hemorrhage
+HP:0001347,Hyperreflexia
+HP:0001363,Craniosynostosis
+HP:0001367,Abnormal joint morphology
+HP:0001369,Arthritis
+HP:0001371,Flexion contracture
+HP:0001373,Joint dislocation
+HP:0001376,Limitation of joint mobility
+HP:0001382,Joint hypermobility
+HP:0001386,Joint swelling
+HP:0001392,Abnormality of the liver
+HP:0001394,Cirrhosis
+HP:0001396,Cholestasis
+HP:0001402,Hepatocellular carcinoma
+HP:0001410,Decreased liver function
+HP:0001413,Micronodular cirrhosis
+HP:0001421,Abnormality of the musculature of the hand
+HP:0001433,Hepatosplenomegaly
+HP:0001438,Abnormal abdomen morphology
+HP:0001446,Abnormality of the musculature of the upper limbs
+HP:0001482,Subcutaneous nodule
+HP:0001488,Bilateral ptosis
+HP:0001500,Broad finger
+HP:0001507,Growth abnormality
+HP:0001508,Failure to thrive
+HP:0001510,Growth delay
+HP:0001518,Small for gestational age
+HP:0001539,Omphalocele
+HP:0001541,Ascites
+HP:0001574,Abnormality of the integument
+HP:0001581,Recurrent skin infections
+HP:0001595,Abnormal hair morphology
+HP:0001596,Alopecia
+HP:0001597,Abnormality of the nail
+HP:0001600,Abnormality of the larynx
+HP:0001608,Abnormality of the voice
+HP:0001609,Hoarse voice
+HP:0001626,Abnormality of the cardiovascular system
+HP:0001627,Abnormal heart morphology
+HP:0001629,Ventricular septal defect
+HP:0001631,Atrial septal defect
+HP:0001633,Abnormal mitral valve morphology
+HP:0001634,Mitral valve prolapse
+HP:0001635,Congestive heart failure
+HP:0001637,Abnormal myocardium morphology
+HP:0001638,Cardiomyopathy
+HP:0001640,Cardiomegaly
+HP:0001642,Pulmonic stenosis
+HP:0001643,Patent ductus arteriosus
+HP:0001645,Sudden cardiac death
+HP:0001647,Bicuspid aortic valve
+HP:0001648,Cor pulmonale
+HP:0001649,Tachycardia
+HP:0001654,Abnormal heart valve morphology
+HP:0001671,Abnormal cardiac septum morphology
+HP:0001677,Coronary artery atherosclerosis
+HP:0001678,Atrioventricular block
+HP:0001679,Abnormal aortic morphology
+HP:0001680,Coarctation of aorta
+HP:0001681,Angina pectoris
+HP:0001695,Cardiac arrest
+HP:0001699,Sudden death
+HP:0001704,Tricuspid valve prolapse
+HP:0001707,Abnormal right ventricle morphology
+HP:0001713,Abnormal cardiac ventricle morphology
+HP:0001733,Pancreatitis
+HP:0001738,Exocrine pancreatic insufficiency
+HP:0001743,Abnormality of the spleen
+HP:0001744,Splenomegaly
+HP:0001760,Abnormal foot morphology
+HP:0001761,Pes cavus
+HP:0001762,Talipes equinovarus
+HP:0001763,Pes planus
+HP:0001780,Abnormality of toe
+HP:0001789,Hydrops fetalis
+HP:0001790,Nonimmune hydrops fetalis
+HP:0001798,Anonychia
+HP:0001805,Onychogryposis
+HP:0001824,Weight loss
+HP:0001839,Split foot
+HP:0001840,Metatarsus adductus
+HP:0001871,Abnormality of blood and blood-forming tissues
+HP:0001872,Abnormality of thrombocytes
+HP:0001873,Thrombocytopenia
+HP:0001874,Abnormality of neutrophils
+HP:0001875,Neutropenia
+HP:0001877,Abnormal erythrocyte morphology
+HP:0001878,Hemolytic anemia
+HP:0001881,Abnormal leukocyte morphology
+HP:0001882,Leukopenia
+HP:0001883,Talipes
+HP:0001888,Lymphopenia
+HP:0001892,Abnormal bleeding
+HP:0001894,Thrombocytosis
+HP:0001895,Normochromic anemia
+HP:0001896,Reticulocytopenia
+HP:0001899,Increased hematocrit
+HP:0001901,Polycythemia
+HP:0001903,Anemia
+HP:0001909,Leukemia
+HP:0001911,Abnormal granulocyte morphology
+HP:0001917,Renal amyloidosis
+HP:0001923,Reticulocytosis
+HP:0001928,Abnormality of coagulation
+HP:0001931,Hypochromic anemia
+HP:0001933,Subcutaneous hemorrhage
+HP:0001939,Abnormality of metabolism/homeostasis
+HP:0001945,Fever
+HP:0001952,Glucose intolerance
+HP:0001956,Truncal obesity
+HP:0001965,Abnormal scalp morphology
+HP:0001972,Macrocytic anemia
+HP:0001974,Leukocytosis
+HP:0001977,Abnormal thrombosis
+HP:0001978,Extramedullary hematopoiesis
+HP:0001982,Sea-blue histiocytosis
+HP:0001987,Hyperammonemia
+HP:0001999,Abnormal facial shape
+HP:0002007,Frontal bossing
+HP:0002011,Morphological central nervous system abnormality
+HP:0002012,Abnormality of the abdominal organs
+HP:0002014,Diarrhea
+HP:0002015,Dysphagia
+HP:0002017,Nausea and vomiting
+HP:0002019,Constipation
+HP:0002024,Malabsorption
+HP:0002027,Abdominal pain
+HP:0002031,Abnormal esophagus morphology
+HP:0002034,Abnormal rectum morphology
+HP:0002035,Rectal prolapse
+HP:0002037,Inflammation of the large intestine
+HP:0002039,Anorexia
+HP:0002059,Cerebral atrophy
+HP:0002060,Abnormal cerebral morphology
+HP:0002063,Rigidity
+HP:0002067,Bradykinesia
+HP:0002069,Bilateral tonic-clonic seizure
+HP:0002071,Abnormality of extrapyramidal motor function
+HP:0002072,Chorea
+HP:0002076,Migraine
+HP:0002086,Abnormality of the respiratory system
+HP:0002087,Abnormality of the upper respiratory tract
+HP:0002088,Abnormal lung morphology
+HP:0002090,Pneumonia
+HP:0002093,Respiratory insufficiency
+HP:0002094,Dyspnea
+HP:0002098,Respiratory distress
+HP:0002099,Asthma
+HP:0002103,Abnormal pleura morphology
+HP:0002105,Hemoptysis
+HP:0002107,Pneumothorax
+HP:0002118,Abnormal cerebral ventricle morphology
+HP:0002119,Ventriculomegaly
+HP:0002140,Ischemic stroke
+HP:0002141,Gait imbalance
+HP:0002143,Abnormality of the spinal cord
+HP:0002150,Hypercalciuria
+HP:0002164,Nail dysplasia
+HP:0002167,Neurological speech impairment
+HP:0002170,Intracranial hemorrhage
+HP:0002174,Postural tremor
+HP:0002185,Neurofibrillary tangles
+HP:0002198,Dilated fourth ventricle
+HP:0002205,Recurrent respiratory infections
+HP:0002209,Sparse scalp hair
+HP:0002240,Hepatomegaly
+HP:0002242,Abnormal intestine morphology
+HP:0002244,Abnormality of the small intestine
+HP:0002250,Abnormal large intestine morphology
+HP:0002269,Abnormality of neuronal migration
+HP:0002270,Abnormality of the autonomic nervous system
+HP:0002300,Mutism
+HP:0002301,Hemiplegia
+HP:0002311,Incoordination
+HP:0002315,Headache
+HP:0002321,Vertigo
+HP:0002322,Resting tremor
+HP:0002326,Transient ischemic attack
+HP:0002345,Action tremor
+HP:0002346,Head tremor
+HP:0002350,Cerebellar cyst
+HP:0002354,Memory impairment
+HP:0002357,Obsolete Dysphasia
+HP:0002360,Sleep disturbance
+HP:0002373,Febrile seizure (within the age range of 3 months to 6 years)
+HP:0002384,Focal impaired awareness seizure
+HP:0002411,Myokymia
+HP:0002423,Long-tract signs
+HP:0002438,Cerebellar malformation
+HP:0002451,Limb dystonia
+HP:0002488,Acute leukemia
+HP:0002493,Upper motor neuron dysfunction
+HP:0002500,Abnormal cerebral white matter morphology
+HP:0002511,Alzheimer disease
+HP:0002524,Cataplexy
+HP:0002529,Neuronal loss in central nervous system
+HP:0002538,Abnormal cerebral cortex morphology
+HP:0002548,Parkinsonism with favorable response to dopaminergic medication
+HP:0002570,Steatorrhea
+HP:0002579,Gastrointestinal dysmotility
+HP:0002583,Colitis
+HP:0002595,Ileus
+HP:0002597,Abnormality of the vasculature
+HP:0002613,Biliary cirrhosis
+HP:0002615,Hypotension
+HP:0002621,Atherosclerosis
+HP:0002625,Deep venous thrombosis
+HP:0002633,Vasculitis
+HP:0002634,Arteriosclerosis
+HP:0002637,Cerebral ischemia
+HP:0002639,Budd-Chiari syndrome
+HP:0002644,Abnormal pelvic girdle bone morphology
+HP:0002648,Obsolete Abnormality of calvarial morphology
+HP:0002650,Scoliosis
+HP:0002652,Skeletal dysplasia
+HP:0002659,Increased susceptibility to fractures
+HP:0002664,Neoplasm
+HP:0002669,Osteosarcoma
+HP:0002672,Gastrointestinal carcinoma
+HP:0002683,Abnormal calvaria morphology
+HP:0002693,Abnormality of the skull base
+HP:0002697,Parietal foramina
+HP:0002705,"High, narrow palate"
+HP:0002715,Abnormality of the immune system
+HP:0002716,Lymphadenopathy
+HP:0002718,Recurrent bacterial infections
+HP:0002719,Recurrent infections
+HP:0002721,Immunodeficiency
+HP:0002725,Systemic lupus erythematosus
+HP:0002733,Abnormal lymph node morphology
+HP:0002750,Delayed skeletal maturation
+HP:0002751,Kyphoscoliosis
+HP:0002757,Recurrent fractures
+HP:0002758,Osteoarthritis
+HP:0002761,Generalized joint laxity
+HP:0002783,Recurrent lower respiratory tract infections
+HP:0002793,Abnormal pattern of respiration
+HP:0002795,Abnormal respiratory system physiology
+HP:0002797,Osteolysis
+HP:0002808,Kyphosis
+HP:0002813,Abnormality of limb bone morphology
+HP:0002814,Abnormality of the lower limb
+HP:0002815,Abnormality of the knee
+HP:0002817,Abnormality of the upper limb
+HP:0002818,Abnormal morphology of the radius
+HP:0002829,Arthralgia
+HP:0002840,Lymphadenitis
+HP:0002863,Myelodysplasia
+HP:0002896,Neoplasm of the liver
+HP:0002904,Hyperbilirubinemia
+HP:0002910,Elevated hepatic transaminase
+HP:0002926,Abnormality of thyroid physiology
+HP:0002960,Autoimmunity
+HP:0002977,Aplasia/Hypoplasia involving the central nervous system
+HP:0002979,Bowing of the legs
+HP:0002981,Abnormality of the calf
+HP:0003011,Abnormality of the musculature
+HP:0003028,Abnormality of the ankles
+HP:0003045,Abnormal patella morphology
+HP:0003073,Hypoalbuminemia
+HP:0003077,Hyperlipidemia
+HP:0003107,Abnormal circulating cholesterol concentration
+HP:0003110,Abnormality of urine homeostasis
+HP:0003111,Abnormal blood ion concentration
+HP:0003119,Abnormal circulating lipid concentration
+HP:0003124,Hypercholesterolemia
+HP:0003141,Increased LDL cholesterol concentration
+HP:0003179,Protrusio acetabuli
+HP:0003196,Short nose
+HP:0003198,Myopathy
+HP:0003202,Skeletal muscle atrophy
+HP:0003203,Impaired oxidative burst
+HP:0003216,Generalized amyloid deposition
+HP:0003236,Elevated circulating creatine kinase concentration
+HP:0003256,Abnormality of the coagulation cascade
+HP:0003271,Visceromegaly
+HP:0003281,Increased circulating ferritin concentration
+HP:0003298,Spina bifida occulta
+HP:0003312,Abnormal form of the vertebral bodies
+HP:0003319,Abnormality of the cervical spine
+HP:0003330,Abnormal bone structure
+HP:0003367,Abnormal femoral neck morphology
+HP:0003394,Muscle spasm
+HP:0003457,EMG abnormality
+HP:0003458,EMG: myopathic abnormalities
+HP:0003468,Abnormal vertebral morphology
+HP:0003470,Paralysis
+HP:0003473,Fatigable weakness
+HP:0003474,Somatic sensory dysfunction
+HP:0003508,Proportionate short stature
+HP:0003510,Severe short stature
+HP:0003549,Abnormality of connective tissue
+HP:0003552,Muscle stiffness
+HP:0003565,Elevated erythrocyte sedimentation rate
+HP:0003645,Prolonged partial thromboplastin time
+HP:0003691,Scapular winging
+HP:0003808,Abnormal muscle tone
+HP:0004209,Clinodactyly of the 5th finger
+HP:0004279,Short palm
+HP:0004297,Abnormality of the biliary system
+HP:0004298,Abnormality of the abdominal wall
+HP:0004299,Hernia of the abdominal wall
+HP:0004303,Abnormal muscle fiber morphology
+HP:0004305,Involuntary movements
+HP:0004308,Ventricular arrhythmia
+HP:0004311,Abnormal macrophage morphology
+HP:0004312,Abnormal reticulocyte morphology
+HP:0004313,Decreased circulating antibody level
+HP:0004322,Short stature
+HP:0004323,Abnormality of body weight
+HP:0004325,Decreased body weight
+HP:0004328,Abnormal anterior eye segment morphology
+HP:0004332,Abnormal lymphocyte morphology
+HP:0004333,Bone-marrow foam cells
+HP:0004334,Dermal atrophy
+HP:0004348,Abnormality of bone mineral density
+HP:0004349,Reduced bone mineral density
+HP:0004354,Abnormal circulating carboxylic acid concentration
+HP:0004364,Abnormal circulating nitrogen compound concentration
+HP:0004370,Abnormality of temperature regulation
+HP:0004372,Reduced consciousness/confusion
+HP:0004377,Hematological neoplasm
+HP:0004378,Abnormality of the anus
+HP:0004386,Gastrointestinal inflammation
+HP:0004395,Malnutrition
+HP:0004401,Meconium ileus
+HP:0004404,Abnormal nipple morphology
+HP:0004409,Hyposmia
+HP:0004416,Precocious atherosclerosis
+HP:0004431,Complement deficiency
+HP:0004440,Coronal craniosynostosis
+HP:0004442,Sagittal craniosynostosis
+HP:0004443,Lambdoidal craniosynostosis
+HP:0004447,Poikilocytosis
+HP:0004796,Gastrointestinal obstruction
+HP:0004808,Acute myeloid leukemia
+HP:0004926,Orthostatic hypotension due to autonomic dysfunction
+HP:0004936,Venous thrombosis
+HP:0004947,Arteriovenous fistula
+HP:0004950,Peripheral arterial stenosis
+HP:0005105,Abnormal nasal morphology
+HP:0005120,Abnormal cardiac atrium morphology
+HP:0005177,Premature arteriosclerosis
+HP:0005181,Premature coronary artery atherosclerosis
+HP:0005198,Stiff interphalangeal joints
+HP:0005214,Intestinal obstruction
+HP:0005224,Rectal abscess
+HP:0005280,Depressed nasal bridge
+HP:0005281,Hypoplastic nasal bridge
+HP:0005306,Capillary hemangioma
+HP:0005339,Abnormality of complement system
+HP:0005344,Abnormal carotid artery morphology
+HP:0005356,Decreased serum complement factor I
+HP:0005368,Abnormality of humoral immunity
+HP:0005372,Abnormality of B cell physiology
+HP:0005384,Defective B cell activation
+HP:0005420,Recurrent gram-negative bacterial infections
+HP:0005430,Recurrent Neisserial infections
+HP:0005435,Impaired T cell function
+HP:0005518,Increased mean corpuscular volume
+HP:0005521,Disseminated intravascular coagulation
+HP:0005532,Macrocytic dyserythropoietic anemia
+HP:0005622,Broad long bones
+HP:0005656,Positional foot deformity
+HP:0005692,Joint hyperflexibility
+HP:0005791,Cortical thickening of long bone diaphyses
+HP:0005916,Abnormal metacarpal morphology
+HP:0005918,Abnormal finger phalanx morphology
+HP:0005922,Abnormal hand morphology
+HP:0005927,Aplasia/hypoplasia involving bones of the hand
+HP:0006009,Broad phalanx
+HP:0006254,Elevated alpha-fetoprotein
+HP:0006265,Aplasia/Hypoplasia of fingers
+HP:0006292,Abnormality of dental eruption
+HP:0006380,Knee flexion contracture
+HP:0006481,Abnormality of primary teeth
+HP:0006482,Abnormality of dental morphology
+HP:0006487,Bowing of the long bones
+HP:0006493,Aplasia/hypoplasia involving bones of the lower limbs
+HP:0006494,Aplasia/Hypoplasia involving bones of the feet
+HP:0006496,Aplasia/hypoplasia involving bones of the upper limbs
+HP:0006510,Chronic pulmonary obstruction
+HP:0006528,Chronic lung disease
+HP:0006532,Recurrent pneumonia
+HP:0006538,Recurrent bronchopulmonary infections
+HP:0006610,Wide intermamillary distance
+HP:0006693,Myocardial steatosis
+HP:0006704,Abnormal coronary artery morphology
+HP:0006705,Abnormal atrioventricular valve morphology
+HP:0006758,Malignant genitourinary tract tumor
+HP:0007086,Social and occupational deterioration
+HP:0007201,Cerebral artery atherosclerosis
+HP:0007256,Abnormal pyramidal sign
+HP:0007359,Focal-onset seizure
+HP:0007364,Aplasia/Hypoplasia of the cerebrum
+HP:0007367,Atrophy/Degeneration affecting the central nervous system
+HP:0007369,Atrophy/Degeneration affecting the cerebrum
+HP:0007370,Aplasia/Hypoplasia of the corpus callosum
+HP:0007378,Neoplasm of the gastrointestinal tract
+HP:0007379,Neoplasm of the genitourinary tract
+HP:0007392,Excessive wrinkled skin
+HP:0007400,Irregular hyperpigmentation
+HP:0007430,Generalized edema
+HP:0007440,Generalized hyperpigmentation
+HP:0007446,Palmoplantar blistering
+HP:0007495,Prematurely aged appearance
+HP:0007574,Generalized bronze hyperpigmentation
+HP:0007700,Ocular anterior segment dysgenesis
+HP:0007759,Opacification of the corneal stroma
+HP:0007957,Corneal opacity
+HP:0008011,Peripheral opacification of the cornea
+HP:0008050,Abnormality of the palpebral fissures
+HP:0008056,Aplasia/Hypoplasia affecting the eye
+HP:0008057,Aplasia/Hypoplasia affecting the fundus
+HP:0008065,Aplasia/Hypoplasia of the skin
+HP:0008066,Abnormal blistering of the skin
+HP:0008067,Abnormally lax or hyperextensible skin
+HP:0008069,Neoplasm of the skin
+HP:0008070,Sparse hair
+HP:0008341,Distal renal tubular acidosis
+HP:0008373,Puberty and gonadal disorders
+HP:0008551,Microtia
+HP:0008678,Renal hypoplasia/aplasia
+HP:0009115,Aplasia/hypoplasia involving the skeleton
+HP:0009118,Aplasia/Hypoplasia of the mandible
+HP:0009121,Abnormal axial skeleton morphology
+HP:0009122,Aplasia/hypoplasia affecting bones of the axial skeleton
+HP:0009124,Abnormal adipose tissue morphology
+HP:0009125,Lipodystrophy
+HP:0009127,Abnormality of the musculature of the limbs
+HP:0009145,Abnormal cerebral artery morphology
+HP:0009179,Deviation of the 5th finger
+HP:0009237,Short 5th finger
+HP:0009380,Aplasia of the fingers
+HP:0009381,Short finger
+HP:0009473,Joint contracture of the hand
+HP:0009553,Abnormality of the hairline
+HP:0009602,Abnormality of thumb phalanx
+HP:0009763,Limb pain
+HP:0009777,Absent thumb
+HP:0009778,Short thumb
+HP:0009810,Abnormality of upper limb joint
+HP:0009811,Abnormality of the elbow
+HP:0009815,Aplasia/hypoplasia of the extremities
+HP:0009826,Limb undergrowth
+HP:0009830,Peripheral neuropathy
+HP:0009891,Underdeveloped supraorbital ridges
+HP:0009901,Crumpled ear
+HP:0009942,Duplication of thumb phalanx
+HP:0009944,Partial duplication of thumb phalanx
+HP:0009997,Duplication of phalanx of hand
+HP:0009999,Partial duplication of the phalanx of hand
+HP:0010066,Duplication of phalanx of hallux
+HP:0010161,Abnormality of the phalanges of the toes
+HP:0010314,Premature thelarche
+HP:0010438,Abnormal ventricular septum morphology
+HP:0010460,Abnormality of the female genitalia
+HP:0010461,Abnormality of the male genitalia
+HP:0010529,Echolalia
+HP:0010576,Intracranial cystic lesion
+HP:0010622,Neoplasm of the skeletal system
+HP:0010647,Abnormal elasticity of skin
+HP:0010674,Abnormality of the curvature of the vertebral column
+HP:0010676,Mechanical ileus
+HP:0010701,Abnormal immunoglobulin level
+HP:0010720,Abnormal hair pattern
+HP:0010741,Pedal edema
+HP:0010749,Blepharochalasis
+HP:0010766,Ectopic calcification
+HP:0010783,Erythema
+HP:0010866,Abdominal wall defect
+HP:0010874,Tendon xanthomatosis
+HP:0010876,Abnormal circulating protein concentration
+HP:0010885,Avascular necrosis
+HP:0010929,Abnormal blood cation concentration
+HP:0010930,Abnormal blood monovalent inorganic cation concentration
+HP:0010935,Abnormality of the upper urinary tract
+HP:0010936,Abnormality of the lower urinary tract
+HP:0010938,Abnormal external nose morphology
+HP:0010944,Abnormal renal pelvis morphology
+HP:0010972,Anemia of inadequate production
+HP:0010974,Abnormal myeloid leukocyte morphology
+HP:0010978,Abnormality of immune system physiology
+HP:0010980,Hyperlipoproteinemia
+HP:0010987,Abnormal cellular immune system morphology
+HP:0010990,Abnormality of the common coagulation pathway
+HP:0010993,Abnormal cerebral subcortex morphology
+HP:0010995,Abnormal circulating dicarboxylic acid concentration
+HP:0011004,Abnormal systemic arterial morphology
+HP:0011014,Abnormal glucose homeostasis
+HP:0011015,Abnormal blood glucose concentration
+HP:0011017,Abnormal cellular physiology
+HP:0011024,Abnormality of the gastrointestinal tract
+HP:0011025,Abnormal cardiovascular system physiology
+HP:0011028,Abnormality of blood circulation
+HP:0011029,Internal hemorrhage
+HP:0011032,Abnormality of fluid regulation
+HP:0011034,Amyloidosis
+HP:0011035,Abnormal renal cortex morphology
+HP:0011042,Abnormal blood potassium concentration
+HP:0011061,Abnormality of dental structure
+HP:0011100,Intestinal atresia
+HP:0011119,Abnormal nasal dorsum morphology
+HP:0011120,Concave nasal ridge
+HP:0011121,Abnormality of skin morphology
+HP:0011122,Abnormality of skin physiology
+HP:0011123,Inflammatory abnormality of the skin
+HP:0011138,Abnormality of skin adnexa morphology
+HP:0011153,Focal motor seizure
+HP:0011217,Abnormal shape of the occiput
+HP:0011218,Abnormal shape of the frontal region
+HP:0011276,Vascular skin abnormality
+HP:0011277,Abnormality of the urinary system physiology
+HP:0011297,Abnormal digit morphology
+HP:0011314,Abnormal long bone morphology
+HP:0011328,Abnormality of fontanelles
+HP:0011329,Abnormality of cranial sutures
+HP:0011337,Abnormality of mouth size
+HP:0011339,Abnormality of upper lip vermillion
+HP:0011354,Generalized abnormality of skin
+HP:0011355,Localized skin lesion
+HP:0011361,Congenital abnormal hair pattern
+HP:0011362,Abnormal hair quantity
+HP:0011442,Abnormal central motor function
+HP:0011443,Abnormality of coordination
+HP:0011446,Abnormality of higher mental function
+HP:0011448,Ankle clonus
+HP:0011450,Unusual CNS infection
+HP:0011458,Abdominal symptom
+HP:0011514,Abnormality of binocular vision
+HP:0011603,Congenital malformation of the great arteries
+HP:0011675,Arrhythmia
+HP:0011702,Abnormal electrophysiology of sinoatrial node origin
+HP:0011729,Abnormality of joint mobility
+HP:0011792,Neoplasm by histology
+HP:0011793,Neoplasm by anatomical site
+HP:0011799,Abnormality of facial soft tissue
+HP:0011800,Midface retrusion
+HP:0011804,Abnormal muscle physiology
+HP:0011805,Abnormal skeletal muscle morphology
+HP:0011807,Type 1 muscle fiber atrophy
+HP:0011821,Abnormal facial skeleton morphology
+HP:0011830,Abnormal oral mucosa morphology
+HP:0011839,Abnormal T cell count
+HP:0011842,Abnormal skeletal morphology
+HP:0011843,Abnormal musculoskeletal physiology
+HP:0011844,Abnormal appendicular skeleton morphology
+HP:0011873,Abnormal platelet count
+HP:0011893,Abnormal leukocyte count
+HP:0011902,Abnormal hemoglobin
+HP:0011904,Persistence of hemoglobin F
+HP:0011927,Short digit
+HP:0011936,Decreased plasma total carnitine
+HP:0011947,Respiratory tract infection
+HP:0011991,Abnormal neutrophil count
+HP:0011993,Impaired neutrophil bactericidal activity
+HP:0011994,Abnormal atrial septum morphology
+HP:0012062,Bone cyst
+HP:0012091,Abnormality of pancreas physiology
+HP:0012116,Abnormal circulating albumin concentration
+HP:0012119,Methemoglobinemia
+HP:0012131,Abnormal number of erythroid precursors
+HP:0012133,Erythroid hypoplasia
+HP:0012210,Abnormal renal morphology
+HP:0012211,Abnormal renal physiology
+HP:0012236,Elevated sweat chloride
+HP:0012243,Abnormal reproductive system morphology
+HP:0012252,Abnormal respiratory system morphology
+HP:0012332,Abnormal autonomic nervous system physiology
+HP:0012337,Abnormal homeostasis
+HP:0012368,Flat face
+HP:0012372,Abnormal eye morphology
+HP:0012373,Abnormal eye physiology
+HP:0012378,Fatigue
+HP:0012379,Abnormal enzyme/coenzyme activity
+HP:0012385,Camptodactyly
+HP:0012397,Aortic atherosclerotic lesion
+HP:0012410,Pure red cell aplasia
+HP:0012418,Hypoxemia
+HP:0012433,Abnormal social behavior
+HP:0012440,Abnormal biliary tract morphology
+HP:0012443,Abnormality of brain morphology
+HP:0012444,Brain atrophy
+HP:0012452,Restless legs
+HP:0012471,Thick vermilion border
+HP:0012472,Eclabion
+HP:0012514,Lower limb pain
+HP:0012531,Pain
+HP:0012575,Abnormal nephron morphology
+HP:0012638,Abnormal nervous system physiology
+HP:0012639,Abnormal nervous system morphology
+HP:0012649,Increased inflammatory response
+HP:0012718,Morphological abnormality of the gastrointestinal tract
+HP:0012719,Functional abnormality of the gastrointestinal tract
+HP:0012722,Heart block
+HP:0012732,Anorectal anomaly
+HP:0012733,Macule
+HP:0012758,Neurodevelopmental delay
+HP:0012759,Neurodevelopmental abnormality
+HP:0020080,Erythrocyte inclusion bodies
+HP:0020082,Heinz bodies
+HP:0020100,Unusual fungal infection
+HP:0020118,Radial artery aplasia
+HP:0020129,Abnormal urine protein level
+HP:0025015,Abnormal vascular morphology
+HP:0025021,Abnormal erythrocyte sedimentation rate
+HP:0025031,Abnormality of the digestive system
+HP:0025032,Abnormality of digestive system physiology
+HP:0025033,Abnormality of digestive system morphology
+HP:0025065,Abnormal mean corpuscular volume
+HP:0025142,Constitutional symptom
+HP:0025155,Abnormality of hepatobiliary system physiology
+HP:0025270,Abnormal esophagus physiology
+HP:0025323,Abnormal arterial physiology
+HP:0025337,Red eye
+HP:0025354,Abnormal cellular phenotype
+HP:0025408,Abnormal spleen morphology
+HP:0025423,Abnormal larynx morphology
+HP:0025425,Laryngospasm
+HP:0025487,Abnormality of bladder morphology
+HP:0025540,Abnormal T cell subset distribution
+HP:0025615,Abscess
+HP:0025633,Abnormal ureter morphology
+HP:0025634,Abnormal ureter physiology
+HP:0025668,Abnormal neck morphology
+HP:0025722,Cerebral infarct
+HP:0030012,Abnormal female reproductive system physiology
+HP:0030044,Flexion contracture of digit
+HP:0030140,Oral cavity bleeding
+HP:0030148,Heart murmur
+HP:0030163,Abnormal vascular physiology
+HP:0030188,Tremor by anatomical site
+HP:0030236,Abnormality of muscle size
+HP:0030270,Elevated red cell adenosine deaminase level
+HP:0030669,Abnormal ocular adnexa morphology
+HP:0030680,Abnormality of cardiovascular system morphology
+HP:0030791,Abnormal jaw morphology
+HP:0030843,Cardiac amyloidosis
+HP:0030846,Abnormality of venous physiology
+HP:0030882,Coronary artery aneurysm
+HP:0030956,Abnormality of cardiovascular system electrophysiology
+HP:0030962,Abnormal morphology of the great vessels
+HP:0030972,Abnormal systemic blood pressure
+HP:0031065,Abnormal ovarian morphology
+HP:0031093,Abnormal breast morphology
+HP:0031364,Ecchymosis
+HP:0031365,Macular purpura
+HP:0031378,Abnormal lymphocyte proliferation
+HP:0031409,Abnormal lymphocyte physiology
+HP:0031466,Impairment in personality functioning
+HP:0031546,Cardiac conduction abnormality
+HP:0031567,Abnormal aortic valve cusp morphology
+HP:0031652,Abnormal aortic valve physiology
+HP:0031653,Abnormal heart valve physiology
+HP:0031654,Abnormal pulmonary valve physiology
+HP:0031657,Abnormal heart sound
+HP:0031703,Abnormal ear morphology
+HP:0031879,Abnormal eyelid physiology
+HP:0031886,Abnormal LDL cholesterol concentration
+HP:0031908,Micrographia
+HP:0032039,Abnormality of the ocular adnexa
+HP:0032101,Unusual infection
+HP:0032153,Joint subluxation
+HP:0032169,Severe infection
+HP:0032180,Abnormal circulating metabolite concentration
+HP:0032251,Abnormal immune system morphology
+HP:0032263,Increased blood pressure
+HP:0032309,Abnormal granulocyte count
+HP:0032341,Reduced forced vital capacity
+HP:0032342,Reduced forced expiratory volume in one second
+HP:0032359,Decreased forced expiratory flow 25-75%
+HP:0032894,Seizure precipitated by febrile infection
+HP:0033057,Decreased serum terminal complement component
+HP:0033109,Abnormal circulating non-proteinogenic amino acid concentration
+HP:0033127,Abnormality of the musculoskeletal system
+HP:0033331,Acute phase response
+HP:0033353,Abnormal blood vessel morphology
+HP:0033354,Abnormal urine metabolite level
+HP:0033401,Tissue ischemia
+HP:0033479,Abnormal circulating bilirubin concentration
+HP:0033725,Thin corpus callosum
+HP:0033800,Blistering by anatomical location
+HP:0034057,Fetal anomaly
+HP:0034058,Abnormal fetal morphology
+HP:0034392,Joint contracture
+HP:0040036,Onychogryposis of fingernail
+HP:0040064,Abnormality of limbs
+HP:0040069,Abnormal lower limb bone morphology
+HP:0040070,Abnormal upper limb bone morphology
+HP:0040081,Abnormal circulating creatine kinase concentration
+HP:0040088,Abnormal lymphocyte count
+HP:0040133,Abnormal circulating ferritin concentration
+HP:0040157,Abnormal intermamillary distance
+HP:0040188,Osteochondrosis
+HP:0040189,Scaling skin
+HP:0040195,Decreased head circumference
+HP:0040276,Adenocarcinoma of the colon
+HP:0040307,Male sexual dysfunction
+HP:0045060,Aplasia/hypoplasia involving bones of the extremities
+HP:0046506,Pain in head and neck region
+HP:0100022,Abnormality of movement
+HP:0100037,Abnormality of the scalp hair
+HP:0100242,Sarcoma
+HP:0100257,Ectrodactyly
+HP:0100261,Abnormal tendon morphology
+HP:0100273,Neoplasm of the colon
+HP:0100314,Cerebral inclusion bodies
+HP:0100323,Juvenile aseptic necrosis
+HP:0100326,Immunologic hypersensitivity
+HP:0100360,Upper-limb joint contracture
+HP:0100491,Abnormality of lower limb joint
+HP:0100533,Inflammatory abnormality of the eye
+HP:0100538,Abnormality of the supraorbital ridges
+HP:0100539,Periorbital edema
+HP:0100540,Palpebral edema
+HP:0100542,Abnormal localization of kidney
+HP:0100543,Cognitive impairment
+HP:0100545,Arterial stenosis
+HP:0100547,Abnormal forebrain morphology
+HP:0100555,Asymmetric growth
+HP:0100559,Lower limb asymmetry
+HP:0100606,Neoplasm of the respiratory system
+HP:0100627,Displacement of the urethral meatus
+HP:0100639,Erectile dysfunction
+HP:0100658,Cellulitis
+HP:0100659,Abnormal cerebral vascular morphology
+HP:0100678,Premature skin wrinkling
+HP:0100736,Abnormal soft palate morphology
+HP:0100749,Chest pain
+HP:0100759,Clubbing of fingers
+HP:0100763,Abnormality of the lymphatic system
+HP:0100784,Peripheral arteriovenous fistula
+HP:0100790,Hernia
+HP:0100798,Fingernail dysplasia
+HP:0100806,Sepsis
+HP:0100807,Long fingers
+HP:0100820,Glomerulopathy
+HP:0100834,Neoplasm of the large intestine
+HP:0100851,Abnormal emotion/affect behavior
+HP:0100852,Abnormal fear/anxiety-related behavior
+HP:0100871,Abnormal palm morphology
+HP:0100872,Abnormality of the plantar skin of foot
+HP:0100886,Abnormality of globe location
+HP:0100887,Abnormality of globe size
+HP:0200006,Slanting of the palpebral fissure
+HP:0200036,Skin nodule
+HP:0200134,Epileptic encephalopathy
+HP:0410008,Abnormality of the peripheral nervous system
+HP:0410042,Abnormal liver morphology
+HP:0410054,Decreased circulating GABA concentration
+HP:0430026,Obsolete Abnormality of the shape of the midface
+MONDO:0004992,Cancer
+MONDO:0045024,Cancer or benign tumor

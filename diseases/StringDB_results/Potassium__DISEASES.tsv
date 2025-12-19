@@ -1,0 +1,2 @@
+category	term	number_of_genes	number_of_genes_in_background	ncbiTaxonId	inputGenes	preferredNames	p_value	fdr	description
+DISEASES	DOID:2170	2	4	9606	9606.ENSP00000263341,9606.ENSP00000405330	IL1B,ESR1	4.24e-06	0.0195	Vaginitis

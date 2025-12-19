@@ -1,0 +1,138 @@
+term,description
+DOID:0014667,Disease of metabolism
+DOID:0050117,Disease by infectious agent
+DOID:0050161,Lower respiratory tract disease
+DOID:0050177,Monogenic disease
+DOID:0050428,Nonepidermolytic palmoplantar keratoderma
+DOID:0050636,Familial visceral amyloidosis
+DOID:0050637,Finnish type amyloidosis
+DOID:0050639,Primary cutaneous amyloidosis
+DOID:0050686,Organ system cancer
+DOID:0050687,Cell type cancer
+DOID:0050736,Autosomal dominant disease
+DOID:0050739,Autosomal genetic disease
+DOID:0050743,Mature T-cell and NK-cell lymphoma
+DOID:0050828,Artery disease
+DOID:0050855,Renal fibrosis
+DOID:0060004,Autoimmune disease of central nervous system
+DOID:0060005,Autoimmune disease of endocrine system
+DOID:0060032,Autoimmune disease of musculoskeletal system
+DOID:0060039,Autoimmune disease of skin and connective tissue
+DOID:0060058,Lymphoma
+DOID:0060060,non-Hodgkin lymphoma
+DOID:0060073,Lymphatic system cancer
+DOID:0060085,Organ system benign neoplasm
+DOID:0060180,Colitis
+DOID:0060440,Epithelial and subepithelial dystrophy
+DOID:0060449,Gelatinous drop-like corneal dystrophy
+DOID:0060591,WHIM syndrome
+DOID:0070027,CST3-related cerebral amyloid angiopathy
+DOID:0070028,APP-related cerebral amyloid angiopathy
+DOID:0070029,ITM2B-related cerebral amyloid angiopathy 1
+DOID:0070030,ITM2B-related cerebral amyloid angiopathy 2
+DOID:0080001,Bone disease
+DOID:0080005,Bone remodeling disease
+DOID:0080010,Bone structure disease
+DOID:0080015,Physical disorder
+DOID:0080355,Hepatobiliary system cancer
+DOID:10124,Corneal disease
+DOID:10155,Intestinal cancer
+DOID:10241,Thalassemia
+DOID:10325,Silicosis
+DOID:104,Bacterial infectious disease
+DOID:10534,Stomach cancer
+DOID:10652,Alzheimers disease
+DOID:10952,Nephritis
+DOID:11247,Disseminated intravascular coagulation
+DOID:11249,Vitamin K deficiency bleeding
+DOID:1168,Familial hyperlipidemia
+DOID:11949,Creutzfeldt-Jakob disease
+DOID:12217,Lewy body dementia
+DOID:1240,Leukemia
+DOID:12449,Aplastic anemia
+DOID:12466,Secondary hyperparathyroidism
+DOID:1247,Blood coagulation disease
+DOID:12858,Huntingtons disease
+DOID:1287,Cardiovascular system disease
+DOID:1289,Neurodegenerative disease
+DOID:12960,Acrocephalosyndactylia
+DOID:1307,Dementia
+DOID:1339,Diamond-Blackfan anemia
+DOID:1398,Parasitic infectious disease
+DOID:14250,Down syndrome
+DOID:14330,Parkinsons disease
+DOID:14515,WAGR syndrome
+DOID:14566,Disease of cellular proliferation
+DOID:150,Disease of mental health
+DOID:1561,Cognitive disorder
+DOID:1575,Rheumatic disease
+DOID:1579,Respiratory system disease
+DOID:16,Integumentary system disease
+DOID:161,Keratosis
+DOID:162,Cancer
+DOID:17,Musculoskeletal system disease
+DOID:178,Vascular disease
+DOID:18,Urinary system disease
+DOID:2170,Vaginitis
+DOID:2316,Brain ischemia
+DOID:2352,Hemochromatosis
+DOID:2355,Anemia
+DOID:2377,Multiple sclerosis
+DOID:2451,Protein S deficiency
+DOID:2452,Thrombophilia
+DOID:2531,Hematologic cancer
+DOID:2730,Epidermolysis bullosa
+DOID:2789,Parasitic protozoa infectious disease
+DOID:2914,Immune system disease
+DOID:305,Carcinoma
+DOID:3118,Hepatobiliary disease
+DOID:3119,Gastrointestinal system cancer
+DOID:326,Ischemia
+DOID:331,Central nervous system disease
+DOID:3326,Purpura
+DOID:3342,Bone inflammation disease
+DOID:3390,Palmoplantar keratosis
+DOID:345,Uterine disease
+DOID:3602,Toxic encephalopathy
+DOID:37,Skin disease
+DOID:4,Disease
+DOID:417,Autoimmune disease
+DOID:438,Autoimmune disease of the nervous system
+DOID:4724,Brain edema
+DOID:4776,Rapidly progressive glomerulonephritis
+DOID:4830,Adenosquamous carcinoma
+DOID:5199,Ureteral obstruction
+DOID:5295,Intestinal disease
+DOID:557,Kidney disease
+DOID:5672,Large intestine cancer
+DOID:583,Hemolytic anemia
+DOID:585,Nephrolithiasis
+DOID:589,Congenital hemolytic anemia
+DOID:612,Primary immunodeficiency disease
+DOID:626,Complement deficiency
+DOID:630,Genetic disease
+DOID:649,Prion disease
+DOID:65,Connective tissue disease
+DOID:655,Inherited metabolic disorder
+DOID:6713,Cerebrovascular disease
+DOID:7,Disease of anatomical entity
+DOID:74,Hematopoietic system disease
+DOID:75,Lymphatic system disease
+DOID:7693,Abdominal aortic aneurysm
+DOID:77,Gastrointestinal system disease
+DOID:8398,Osteoarthritis
+DOID:848,Arthritis
+DOID:850,Lung disease
+DOID:8502,Bullous skin disease
+DOID:863,Nervous system disease
+DOID:8719,In situ carcinoma
+DOID:8725,Vascular dementia
+DOID:8857,Lupus erythematosus
+DOID:90,Degenerative disc disease
+DOID:9120,Amyloidosis
+DOID:9255,Frontotemporal dementia
+DOID:9256,Colorectal cancer
+DOID:9352,Type 2 diabetes mellitus
+DOID:936,Brain disease
+DOID:9808,Goodpasture syndrome
+DOID:986,Alopecia areata
