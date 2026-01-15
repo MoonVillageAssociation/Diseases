@@ -4,8 +4,8 @@ DOID:0050117,Disease by infectious agent,Infectious Disease
 DOID:0050161,Lower respiratory tract disease,Respiratory Disease
 DOID:0050177,Monogenic disease,Genetic Disorder
 DOID:0050428,Nonepidermolytic palmoplantar keratoderma,Dermatologic Disease
-DOID:0050636,Familial visceral amyloidosis,Renal Disease
-DOID:0050637,Finnish type amyloidosis, Genetic Disorder
+DOID:0050636,Familial visceral amyloidosis,Genetic Disorder;Neurological Disease;Cardiovascular Disease 
+DOID:0050637,Finnish type amyloidosis,Genetic Disorder
 DOID:0050639,Primary cutaneous amyloidosis,Dermatologic Disease
 DOID:0050686,Organ system cancer,Cancer
 DOID:0050687,Cell type cancer,Cancer
@@ -20,7 +20,7 @@ DOID:0060032,Autoimmune disease of musculoskeletal system,Autoimmune Disease;Mus
 DOID:0060039,Autoimmune disease of skin and connective tissue,Autoimmune Disease;Dermatologic Disease
 DOID:0060058,Lymphoma,Cancer;Hematologic Disease
 DOID:0060060,non-Hodgkin lymphoma,Cancer;Hematologic Disease
-DOID:0060073,Lymphatic system cancer,Cancer;Hematologic Disease
+DOID:0060073,Lymphatic system cancer,Cancer;Hematologic Disease;Lymphatic System Disease
 DOID:0060085,Organ system benign neoplasm,Disease of cellular proliferation
 DOID:0060180,Colitis,Gastrointestinal Disease
 DOID:0060440,Epithelial and subepithelial dystrophy,Ophthalmologic Disease
@@ -45,7 +45,7 @@ DOID:10652,Alzheimers disease,Neurological Disease
 DOID:10952,Nephritis,Renal Disease
 DOID:11247,Disseminated intravascular coagulation,Hematologic Disease
 DOID:11249,Vitamin K deficiency bleeding,Vitamin Deficiency Disease
-DOID:1168,Familial hyperlipidemia,Metabolic Disorder
+DOID:1168,Familial hyperlipidemia,Genetic Disorder;Metabolic Disorder
 DOID:11949,Creutzfeldt-Jakob disease,Neurological Disease
 DOID:12217,Lewy body dementia,Neurological Disease
 DOID:1240,Leukemia,Cancer;Hematologic Disease
@@ -77,7 +77,7 @@ DOID:2170,Vaginitis,Reproductive Disease
 DOID:2316,Brain ischemia,Neurological Disease
 DOID:2352,Hemochromatosis,Genetic Disorder
 DOID:2355,Anemia,Hematologic Disease
-DOID:2377,Multiple sclerosis,Neurological Disease
+DOID:2377,Multiple sclerosis,Autoimmune Disease;Neurological Disease
 DOID:2451,Protein S deficiency,Genetic Disorder
 DOID:2452,Thrombophilia,Hematologic Disease
 DOID:2531,Hematologic cancer,Cancer;Hematologic Disease
@@ -85,7 +85,7 @@ DOID:2730,Epidermolysis bullosa,Genetic Disorder
 DOID:2789,Parasitic protozoa infectious disease,Infectious Disease
 DOID:2914,Immune system disease,Immunological Disease
 DOID:305,Carcinoma,Cancer
-DOID:3118,Hepatobiliary disease,Liver Disease
+DOID:3118,Hepatobiliary disease,Gastrointestinal Disease;Liver Disease
 DOID:3119,Gastrointestinal system cancer,Cancer;Gastrointestinal Disease
 DOID:326,Ischemia,Cardiovascular Disease
 DOID:331,Central nervous system disease,Neurological Disease
@@ -107,11 +107,11 @@ DOID:557,Kidney disease,Renal Disease
 DOID:5672,Large intestine cancer,Cancer;Gastrointestinal Disease
 DOID:583,Hemolytic anemia,Hematologic Disease
 DOID:585,Nephrolithiasis,Renal Disease
-DOID:589,Congenital hemolytic anemia,Hematologic Disease
+DOID:589,Congenital hemolytic anemia,Genetic Disorder;Hematologic Disease
 DOID:612,Primary immunodeficiency disease,Immunological Disease
 DOID:626,Complement deficiency,Immunological Disease
 DOID:630,Genetic disease,Genetic Disorder
-DOID:649,Prion disease,Neurological Disease
+DOID:649,Prion disease,Neurological Disease;Infectious Disease
 DOID:65,Connective tissue disease,Musculoskeletal Disease
 DOID:655,Inherited metabolic disorder,Metabolic Disorder
 DOID:6713,Cerebrovascular disease,Cardiovascular Disease
@@ -132,7 +132,7 @@ DOID:90,Degenerative disc disease,Musculoskeletal Disease
 DOID:9120,Amyloidosis,Renal Disease;Cardiovascular Disease;Neurological Disease
 DOID:9255,Frontotemporal dementia,Neurological Disease
 DOID:9256,Colorectal cancer,Cancer;Gastrointestinal Disease
-DOID:9352,Type 2 diabetes mellitus,Metabolic Disorder
+DOID:9352,Type 2 diabetes mellitus,Endocrine Disease;Metabolic Disorder
 DOID:936,Brain disease,Neurological Disease
 DOID:9808,Goodpasture syndrome,Autoimmune Disease
 DOID:986,Alopecia areata,Dermatologic Disease
