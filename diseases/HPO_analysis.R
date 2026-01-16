@@ -585,5 +585,5 @@ unique_by_hpo <- df %>%
 
 write_csv(
   unique_by_hpo,
-  "HPO_analysis/hpo_unique_genes_and_names_by_hpo.csv"
+  "HPO_analysis/hpo_unique_inputGenes_and_preferredNames.csv"
 )
