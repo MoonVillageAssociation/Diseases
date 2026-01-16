@@ -550,4 +550,40 @@ ggsave(
   width = 8, height = 6, dpi = 300
 )
 
+# File 1: Count of HPO descriptions (after filtering)
+hpo_description_counts <- df %>%
+  count(description, sort = TRUE)
 
+write_csv(
+  hpo_description_counts,
+  "HPO_analysis/hpo_description_counts.csv"
+)
+
+# File 2: Unique inputGenes and preferredNames per HPO description
+unique_by_hpo <- df %>%
+  select(description, inputGenes, preferredNames) %>%
+  mutate(
+    inputGenes = if_else(is.na(inputGenes), "", inputGenes),
+    preferredNames = if_else(is.na(preferredNames), "", preferredNames)
+  ) %>%
+  group_by(description) %>%
+  summarise(
+    inputGenes_unique = {
+      vals <- unlist(str_split(inputGenes, ","))
+      vals <- str_trim(vals)
+      vals <- vals[!is.na(vals) & vals != ""]
+      paste(sort(unique(vals)), collapse = ", ")
+    },
+    preferredNames_unique = {
+      vals <- unlist(str_split(preferredNames, ","))
+      vals <- str_trim(vals)
+      vals <- vals[!is.na(vals) & vals != ""]
+      paste(sort(unique(vals)), collapse = ", ")
+    },
+    .groups = "drop"
+  )
+
+write_csv(
+  unique_by_hpo,
+  "HPO_analysis/hpo_unique_genes_and_names_by_hpo.csv"
+)

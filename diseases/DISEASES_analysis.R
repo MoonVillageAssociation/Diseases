@@ -467,3 +467,35 @@ ggsave(
   plot = p_rel_cns,
   width = 12, height = 6, dpi = 300
 )
+
+
+# Document 1: Count of descriptions
+description_counts <- df_expanded %>%
+  count(description, sort = TRUE)
+
+write_csv(
+  description_counts,
+  "DISEASES_analysis/diseases_description_counts.csv"
+)
+
+# Document 2: Unique genes and preferred names
+unique_genes_names <- df_expanded %>%
+  select(description, inputGenes, preferredNames) %>%
+  # split comma-separated values while keeping the disease key
+  separate_rows(inputGenes, sep = ",") %>%
+  separate_rows(preferredNames, sep = ",") %>%
+  mutate(
+    inputGenes = str_trim(inputGenes),
+    preferredNames = str_trim(preferredNames)
+  ) %>%
+  group_by(description) %>%
+  summarise(
+    inputGenes_unique = paste(sort(unique(na.omit(inputGenes[inputGenes != ""]))), collapse = ", "),
+    preferredNames_unique = paste(sort(unique(na.omit(preferredNames[preferredNames != ""]))), collapse = ", "),
+    .groups = "drop"
+  )
+
+write_csv(
+  unique_genes_names,
+  "DISEASES_analysis/diseases_unique_inputGenes_and_preferredNames.csv"
+)
